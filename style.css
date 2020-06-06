@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto|Alfa+Slab+One&display=swap'");
+
+
+
+.container {
+	width: 700px;
+	margin: 0 100px;
+	position: relative;
+}
+
+.banner{
+	background-image: url(images/banner4.jpg);
+	background-repeat: no-repeat;
+	padding: 100px 100px 600px 100px;
+	background-size: cover;
+	color: black;
+}
+
+
+body {
+	font-family: "Appolo W02",Georgia,serif;
+	font-size: 1.7rem;
+}
+
+h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: bold;
+}
+
+h2,h3 {
+	font-family: "Roboto",sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+ 
+h3 {
+	margin-bottom: 50px;
+}
+
+a{
+	font-size: 16px;
+	text-decoration: none;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 600px;
+}
+a:hover{
+	color:black;
+}
+
+.btn-blue{
+	background-color: black;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 50%;
+
+}
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.card{
+	background: white;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	left: -200px;
+	top: -132px;
+	box-shadow: 0px 10px 30px rgba{0,0,0,0,0.4};
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container,.banner {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container,.banner {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container,.banner {
+    width: 300px;
+  }
+}
+
+ul{
+	padding-inline-start:10px;
+}
+
+.list-inline>a{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.fab{
+	font-size: 30px;
+	color: black;
+	align-content:center;  
+	margin-bottom: 20px;
+}
+
+.fab:hover{
+	color: black;
+	font-size: 50px;
+}
